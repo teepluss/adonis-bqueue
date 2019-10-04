@@ -1,0 +1,43 @@
+{
+  "name": "adonis-bqueue",
+  "version": "1.0.0",
+  "description": "Queue provider for the Adonis framework",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "japa"
+  },
+  "private": false,
+  "author": "Pattanai Kawinvasin <teepluss@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^1.3.0",
+    "bee-queue": "^1.2.2",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "@adonisjs/sink": "^1.0.13",
+    "japa": "^1.0.5",
+    "japa-cli": "^1.0.1",
+    "standard": "^10.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teepluss/adonis-bqueue.git"
+  },
+  "keywords": [
+    "adonisjs",
+    "adonis-framework",
+    "adonis",
+    "bee-queue",
+    "queue"
+  ],
+  "bugs": {
+    "url": "https://github.com/teepluss/adonis-bqueue/issues"
+  },
+  "homepage": "https://github.com/teepluss/adonis-bqueue#readme",
+  "bin": {
+    "adonis-bqueue": "index.js"
+  }
+}
